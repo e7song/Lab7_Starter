@@ -1,3 +1,5 @@
+Eric Song
+
 1. I would fit my automated task "within a Github action that runs whenever code is pushed." This option supports the iterative development paradigm; as I am adding new features and pushing it to my repository, it ensures that none of the other functionality breaks from my new changes. The second option, manually running it, does not follow this idea of automatic testing. My code working locally does not guarantee that the finalized product, after pushing to the repository, will work. If I run all my scripts after my development is done, it is difficult to tell why something is going wrong. If I have a version that works and a version causing the scripts to fail, I have a smaller space to search for the bug.
 
 2. No. I would not use an end to end test to ensure that a function is returning the correct output. This type of check does not require a comprehensive, end-to-end test that is checking for functionality. I don't need to look at if the code is functioning overall; I can just check to see if the function is returning the correct output with unit tests.
